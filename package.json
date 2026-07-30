@@ -1,7 +1,7 @@
 {
   "name": "emojis-list",
-  "description": "Complete list of standard emojis.",
-  "homepage": "https://nidecoc.io/Kikobeats/emojis-list",
+  "description": "Complete archived list of standard Unicode emoji characters for Node.js and the browser.",
+  "homepage": "https://github.com/Kikobeats/emojis-list",
   "version": "3.0.0",
   "main": "./index.js",
   "author": {
@@ -18,10 +18,15 @@
   },
   "keywords": [
     "archive",
+    "characters",
     "complete",
+    "dataset",
     "emoji",
+    "emoticon",
     "list",
-    "standard"
+    "standard",
+    "symbols",
+    "unicode"
   ],
   "devDependencies": {
     "acho": "latest",
