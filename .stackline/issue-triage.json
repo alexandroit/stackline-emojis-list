@@ -1,0 +1,56 @@
+{
+  "checkedAt": "2026-09-29T00:21:59.323535+00:00",
+  "upstreamRepository": "kikobeats/emojis-list",
+  "coverage": "Most recently updated 100 open and 30 closed issue/PR entries; PRs removed. This is triage evidence, not a claim of exhaustive review.",
+  "openIssues": [
+    {
+      "number": 10,
+      "title": "map emoji names with emojis",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/10"
+    }
+  ],
+  "recentClosedIssues": [
+    {
+      "number": 32,
+      "title": "Error installing emojis-list",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/32"
+    },
+    {
+      "number": 30,
+      "title": "Integrity check failed for \"emojis-list\"",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/30"
+    },
+    {
+      "number": 18,
+      "title": "Standard heart emoji is black instead of red",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/18"
+    },
+    {
+      "number": 21,
+      "title": "Add new emoji 12.1",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/21"
+    },
+    {
+      "number": 19,
+      "title": "Not able to fetch package if inside private npm proxy.",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/19"
+    },
+    {
+      "number": 17,
+      "title": "Action required: Greenkeeper could not be activated \ud83d\udea8",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/17"
+    },
+    {
+      "number": 15,
+      "title": "Action required: Greenkeeper could not be activated \ud83d\udea8",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/15"
+    },
+    {
+      "number": 2,
+      "title": "Uncaught TypeError: __webpack_require__(...).filter is not a function",
+      "url": "https://github.com/Kikobeats/emojis-list/issues/2"
+    }
+  ],
+  "decision": "Maintenance adoption with preserved runtime payload. No runtime defect correction is claimed. Reports remain visible for subsequent targeted reproduction.",
+  "limits": "Issue titles and bodies were reviewed from the bounded primary-source snapshot; this does not claim exhaustive issue closure or vulnerability absence."
+}
