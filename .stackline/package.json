@@ -1,8 +1,8 @@
 {
   "name": "@stackline/emojis-list",
   "description": "Complete list of standard emojis.",
-  "homepage": "https://github.com/alexandroit/stackline-emojis-list#readme",
-  "version": "1.0.0",
+  "homepage": "https://alexandro.net/docs/vanilla/emojis-list/",
+  "version": "1.0.1",
   "main": "./index.js",
   "author": {
     "email": "josefrancisco.verdu@gmail.com",
@@ -17,6 +17,10 @@
     "url": "https://github.com/alexandroit/stackline-emojis-list/issues"
   },
   "keywords": [
+    "stackline",
+    "npm-package",
+    "emojis-list",
+    "nodejs",
     "archive",
     "complete",
     "emoji",

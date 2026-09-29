@@ -1,9 +1,47 @@
-# emojis-list
+# @stackline/emojis-list
 
-[![Dependency status](http://img.shields.io/david/Kikobeats/emojis-list.svg?style=flat-square)](https://david-dm.org/Kikobeats/emojis-list)
-[![Dev Dependencies Status](http://img.shields.io/david/dev/Kikobeats/emojis-list.svg?style=flat-square)](https://david-dm.org/Kikobeats/emojis-list#info=devDependencies)
-[![NPM Status](http://img.shields.io/npm/dm/emojis-list.svg?style=flat-square)](https://www.npmjs.org/package/emojis-list)
-[![Donate](https://img.shields.io/badge/donate-paypal-blue.svg?style=flat-square)](https://paypal.me/kikobeats)
+> Complete list of standard emojis.
+
+[![npm version](https://img.shields.io/npm/v/@stackline/emojis-list.svg?style=flat-square)](https://www.npmjs.com/package/@stackline/emojis-list)
+[![license](https://img.shields.io/npm/l/@stackline/emojis-list.svg?style=flat-square)](https://github.com/alexandroit/stackline-emojis-list)
+[![GitHub repository](https://img.shields.io/badge/GitHub-alexandroit%2Fstackline-emojis-list-181717?style=flat-square&logo=github)](https://github.com/alexandroit/stackline-emojis-list)
+[![Docs](https://img.shields.io/badge/docs-alexandro.net-0f766e?style=flat-square)](https://alexandro.net/docs/vanilla/emojis-list/)
+[![Reddit community](https://img.shields.io/badge/community-r%2FStackline-ff4500?style=flat-square&logo=reddit&logoColor=white)](https://www.reddit.com/r/Stackline/)
+
+**[Documentation](https://alexandro.net/docs/vanilla/emojis-list/)** | **[npm](https://www.npmjs.com/package/@stackline/emojis-list)** | **[Issues](https://github.com/alexandroit/stackline-emojis-list/issues)** | **[Repository](https://github.com/alexandroit/stackline-emojis-list)**
+
+**Current package version:** `1.0.1`
+
+---
+
+## Why this package?
+
+`@stackline/emojis-list` is the Stackline-maintained distribution of `emojis-list@3.0.0`. It is an independent continuation of [emojis-list](https://github.com/kikobeats/emojis-list); original authors and licenses remain credited below.
+
+## Compatibility
+
+| Item | Value |
+| :--- | :--- |
+| Package | `@stackline/emojis-list@1.0.1` |
+| API target | `emojis-list@3.0.0` |
+| Supported Node.js | `>= 4` |
+| License | `MIT` |
+| Main entry | `./index.js` |
+| Runtime dependencies | `none` |
+
+## Installation
+
+```bash
+npm install @stackline/emojis-list
+```
+
+Preserve existing imports and plugin resolution with an npm alias:
+
+```bash
+npm install emojis-list@npm:@stackline/emojis-list
+```
+
+## Usage and API reference
 
 > Complete list of standard Unicode Hex Character Code that represent emojis.
 
@@ -12,13 +50,13 @@
 ## Install
 
 ```bash
-npm install emojis-list --save
+npm install @stackline/emojis-list --save
 ```
 
 ## Usage
 
 ```js
-const emojis = require('emojis-list')
+const emojis = require('@stackline/emojis-list')
 console.log(emojis[0])
 // => 🀄
 ```
@@ -34,3 +72,22 @@ console.log(emojis[0])
 ## License
 
 MIT © [Kiko Beats](http://www.kikobeats.com)
+
+## Credits and original authors
+
+- Original project: [emojis-list](https://github.com/kikobeats/emojis-list).
+- Kiko Beats.
+- Copyright © 2015 Kiko Beats.
+- Stackline maintenance: [Alexandro Paixao Marques](https://www.linkedin.com/in/aleinfo/) and [Stackline contributors](https://github.com/alexandroit).
+
+Original copyright, license notices and contributor acknowledgements remain part of this distribution. Stackline maintenance does not replace authorship of the original work.
+
+## Community and Links
+
+- [Stackline website](https://alexandro.net/)
+- [GitHub projects](https://github.com/alexandroit)
+- [npm packages](https://www.npmjs.com/~alex360qc)
+- [Reddit community — r/Stackline](https://www.reddit.com/r/Stackline/)
+- [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
+
+Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
