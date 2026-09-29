@@ -4,7 +4,7 @@
     {
       "name": "@stackline/emojis-list",
       "path": "README.md",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "baselineVersion": "1.0.0",
       "keywords": [
         "stackline",
@@ -20,8 +20,8 @@
       "homepage": "https://alexandro.net/docs/vanilla/emojis-list/",
       "baselineTarball": "https://registry.npmjs.org/@stackline/emojis-list/-/emojis-list-1.0.0.tgz",
       "baselineIntegrity": "sha512-83/4UDr3gel+g3ty1xXSBVWcBBgcmLbLXagbCa4Rt6IAo3hUUqngyl1cBaazFHtzTMDLFO4s7xGZmuzgvMkSVQ==",
-      "expectedSha512": "8bbbaf5c2590d1c944e62c10e1c7c80d4280e8577c396441bbb36041db7067a4524c3949353e730076cd1d99e3ea5b571209a172fb19ca3f93e7941f2decc609",
-      "tag": "docs-stackline-emojis-list-v1.0.1"
+      "expectedSha512": "fbf7ce764d15b39634d0b1fd5e00e695e95660cb5b19e3515a2d0d82fae5728c06b77edf303409dc1f039f9d9c4f7a2ce08ac7fd31c51187899e8382535e1e4d",
+      "tag": "docs-stackline-emojis-list-v1.0.2"
     }
   ]
 }
