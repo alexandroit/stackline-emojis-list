@@ -1,0 +1,27 @@
+{
+  "repository": "alexandroit/stackline-emojis-list",
+  "packages": [
+    {
+      "name": "@stackline/emojis-list",
+      "path": "README.md",
+      "version": "1.0.1",
+      "baselineVersion": "1.0.0",
+      "keywords": [
+        "stackline",
+        "npm-package",
+        "emojis-list",
+        "nodejs",
+        "archive",
+        "complete",
+        "emoji",
+        "list",
+        "standard"
+      ],
+      "homepage": "https://alexandro.net/docs/vanilla/emojis-list/",
+      "baselineTarball": "https://registry.npmjs.org/@stackline/emojis-list/-/emojis-list-1.0.0.tgz",
+      "baselineIntegrity": "sha512-83/4UDr3gel+g3ty1xXSBVWcBBgcmLbLXagbCa4Rt6IAo3hUUqngyl1cBaazFHtzTMDLFO4s7xGZmuzgvMkSVQ==",
+      "expectedSha512": "8bbbaf5c2590d1c944e62c10e1c7c80d4280e8577c396441bbb36041db7067a4524c3949353e730076cd1d99e3ea5b571209a172fb19ca3f93e7941f2decc609",
+      "tag": "docs-stackline-emojis-list-v1.0.1"
+    }
+  ]
+}
