@@ -10,7 +10,7 @@
 
 **[Documentation](https://alexandro.net/docs/vanilla/emojis-list/)** | **[npm](https://www.npmjs.com/package/@stackline/emojis-list)** | **[Issues](https://github.com/alexandroit/stackline-emojis-list/issues)** | **[Repository](https://github.com/alexandroit/stackline-emojis-list)**
 
-**Current package version:** `1.0.2`
+**Current package version:** `1.0.3`
 
 ---
 
@@ -22,7 +22,7 @@
 
 | Item | Value |
 | :--- | :--- |
-| Package | `@stackline/emojis-list@1.0.2` |
+| Package | `@stackline/emojis-list@1.0.3` |
 | API target | `emojis-list@3.0.0` |
 | Supported Node.js | `>= 4` |
 | License | `MIT` |
@@ -91,3 +91,7 @@ Original copyright, license notices and contributor acknowledgements remain part
 - [Maintainer LinkedIn](https://www.linkedin.com/in/aleinfo/)
 
 Use this repository's issue tracker for reproducible bugs and feature requests. Join r/Stackline for examples, usage questions and release discussions.
+
+### Updating the data
+
+The repository generator and its tests require Node.js 24.22.2. Run `npm ci` and `npm test` before an intentional `npm run update`. The published emoji array has no runtime dependencies.

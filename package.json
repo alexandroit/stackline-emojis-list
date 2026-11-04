@@ -24,11 +24,7 @@
     "standard"
   ],
   "devDependencies": {
-    "acho": "latest",
-    "browserify": "latest",
-    "cheerio": "latest",
-    "got": ">=5 <6",
-    "standard": "latest"
+    "cheerio": "1.2.0"
   },
   "engines": {
     "node": ">= 4"
@@ -37,9 +33,9 @@
     "index.js"
   ],
   "scripts": {
-    "pretest": "standard update.js",
-    "test": "echo 'YOLO'",
-    "update": "node update"
+    "pretest": "node --check update.js",
+    "test": "node --test test/update.test.js",
+    "update": "node update.js"
   },
   "license": "MIT"
 }
