@@ -29,6 +29,7 @@ jobs:
       - run: npm test
       - run: npm audit --audit-level=low
       - run: python3 scripts/stackline-pack.py
+      - run: python3 .github/scripts/check-release-readme.py artifact/*.tgz
       - run: node scripts/stackline-test-packed.mjs
       - run: node --test scripts/registry-requests.test.mjs
       - uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
