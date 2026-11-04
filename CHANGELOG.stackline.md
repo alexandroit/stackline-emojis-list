@@ -1,5 +1,10 @@
 # Stackline changelog
 
+## 1.0.5 - 2026-11-04
+
+- Make npm select the Stackline README by giving upstream documentation a distinct filename.
+- Check the README selected by the actual npm publication parser before release.
+
 ## 1.0.4 - 2026-11-04
 
 - Publish the Stackline README with the correct package version.
